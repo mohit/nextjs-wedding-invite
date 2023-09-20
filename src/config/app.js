@@ -1,25 +1,25 @@
 const baseConfig = {
-  weddingDay: "Saturday",
-  weddingTime: "19.00 - 21.00",
-  weddingDate: "Feb 22, 2020",
-  showBuiltWithInfo: true,
-  showQrCode: false,
+  weddingDay: "Tuesday",
+  weddingTime: "12.00 - 1.00",
+  weddingDate: "Oct 31, 2023",
+  showBuiltWithInfo: false,
+  showQrCode: true,
   calendarInfo: {
     timeStartISO: "2020-02-22T19:00:00+08:00",
     timeEndISO: "2020-02-22T21:00:00+08:00"
   },
   coupleInfo: {
-    brideName: "Aida",
-    groomName: "Wildan",
+    brideName: "Erin",
+    groomName: "Mohit",
     coupleNameFormat: "GROOM_FIRST"
   },
   venue: {
-    name: "Oval Hotel",
-    addressLine1: "Jalan Diponegoro No.23,",
-    addressLine2: "Surabaya, East Java 60241,",
-    city: "Surabaya",
-    country: "Indonesia",
-    mapUrl: "https://maps.app.goo.gl/pCUqr9AjSN8dxzS57"
+    name: "San Francisco City Hall",
+    addressLine1: "Mayors Balcony,",
+    addressLine2: "1 Dr Carlton B Goodlett Pl,",
+    city: "San Francisco",
+    country: "CA 94102",
+    mapUrl: "https://maps.app.goo.gl/uKoyBB5PXTvcGBoa6"
   },
   logo: {
     headerLogo: "/assets/images/ring-svg.png",
@@ -28,19 +28,13 @@ const baseConfig = {
   },
   ogTags: {
     logo: "/assets/images/aw-ring-logo.png",
-    siteName: "wedding.wzulfikar.com",
-    publishedTime: "2020-01-25"
+    siteName: "moer.party",
+    publishedTime: "2023-09-20"
   }
 };
 
 const lang = {
   id: {
-    weddingDay: "Sabtu",
-    weddingDate: "22 Februari 2020",
-    venue: {
-      ...baseConfig.venue,
-      name: "Hotel Oval",
-      addressLine2: "Surabaya, Jawa Timur, 60241,",
     }
   }
 };
